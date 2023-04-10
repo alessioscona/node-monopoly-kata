@@ -1,0 +1,12 @@
+{
+  "name": "kataopoly-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Monopoly.js",
+  "scripts": {
+    "test": "node Player.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
