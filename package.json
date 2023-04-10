@@ -4,7 +4,8 @@
   "description": "",
   "main": "Monopoly.js",
   "scripts": {
-    "test": "node Player.test.js"
+    "testPlayer": "node Player.test.js",
+    "testGame": "node Game.test.js"
   },
   "keywords": [],
   "author": "",

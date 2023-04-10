@@ -15,7 +15,7 @@ for (let i = 0; i < 20; i++){
     game.play();
     console.log('ROUND:' + game.rounds)
     game.players.forEach(player => {
-       console.log(player.name + ' MOVE TO:' + player.location)
+        console.log(player.name + ' MOVE TO:' + player.location + ' - balance: ' + player.balance)
     });
 }
 console.log('Game END')
