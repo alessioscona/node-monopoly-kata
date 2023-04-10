@@ -1,13 +1,16 @@
 {
-  "name": "kataopoly-tdd",
+  "name": "monopoly-kata-tdd",
   "version": "1.0.0",
   "description": "",
-  "main": "Monopoly.js",
+  "main": "src/Monopoly.js",
   "scripts": {
-    "testPlayer": "node Player.test.js",
-    "testGame": "node Game.test.js"
+    "test": "mocha ./tests/**/*.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Alessio Cona",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
 }

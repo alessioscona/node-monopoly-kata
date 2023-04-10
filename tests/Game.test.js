@@ -2,8 +2,8 @@ const test = require('node:test');
 
 const assert = require('assert/strict');
 
-const Game = require('./Game.js')
-const Player = require("./Player");
+const Game = require('../src/Game.js')
+const Player = require("../src/Player");
 
 // Create a game with two players named Horse and Car.
 test('Create a game with two players named Horse and Car.', () => {
