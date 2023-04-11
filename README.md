@@ -1,2 +1,2 @@
 # node-monopoly-kata
-kata monopoly prime due release
+kata monopoly prime due release in javascript su nodejs
