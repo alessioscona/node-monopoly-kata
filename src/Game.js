@@ -5,12 +5,11 @@ class Game{
     }
 
     play(rounds){
-        if(this.players.length<2||this.players.length>8) return false;
+        if(this.players.length<2||this.players.length>8) throw new Error('Try to create a game with < 2 or > 8 players.')
 
         this.players.forEach(player => player.play())
         this.rounds++;
 
-        return true;
     }
 
     //Fisher–Yates shuffle
